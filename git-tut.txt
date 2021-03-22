@@ -1,0 +1,10 @@
+git clone <url to remote>
+ - remote to local
+git add <filename> [<filname>]
+ - adds the given files to tracked and staging area
+git status
+ - Gives the current overview of the repository
+git commit -m "<Add a message about the commit here"
+ - Commit the staged changes to the local repository
+git push origin <branch name>
+ - Move the changes from local to remote
