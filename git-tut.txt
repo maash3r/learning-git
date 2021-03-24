@@ -8,3 +8,18 @@ git commit -m "<Add a message about the commit here"
  - Commit the staged changes to the local repository
 git push origin <branch name>
  - Move the changes from local to remote
+git pull
+ - Update the local from remote
+
+git branch
+ - Shows all the branches available and which branch we are currently on
+git branch <branch-name>
+ - Create a branch with the given name
+git branch -d <branch-name>
+ - Delete a branch with the given name
+git branch --track <local-branch-name> origin/<remote-branch-name>
+ - Create a branch which is a duplicate of remote branch
+
+git checkout <branch-name>
+ - Changes the current branch to the given branch
+
